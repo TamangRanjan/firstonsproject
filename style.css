@@ -1,0 +1,803 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+.sec1{
+    height: 100vh;
+    background-image: url(image/forest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.header1{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.header1 h2{
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 200%;
+    color: white;
+}
+.header1 ul{
+    display: flex;
+    margin-right: 35px;
+}
+.header1 ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+.header1 ul li a{
+    text-decoration: none;
+    color:white;
+}
+.header1 ul li a:hover{
+    color: green;
+}
+
+.div1{
+    height: 300px;
+    text-align: center;
+    margin-top: 175px;
+    margin-right: 50px;
+    color: white;
+}
+.div1 p{
+    margin-top: 7px;
+
+}
+.hhh{
+    font-size: 28px;
+    font-weight: 100;
+}
+.hh{
+    font-size: 40px;
+}
+.but{
+    margin-top: 40px;
+}
+.but a{
+    text-decoration: none;
+}
+.but1{
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 42px;
+    width: 121px;
+    background-color: rgb(213, 223, 213);
+    transition: 0.6s;
+}
+.but1 a{
+    font-size:15px;
+    color:green;
+    letter-spacing: 1px;
+}
+.but1:hover{
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+.but2{
+    margin-left: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 42px;
+    width: 121px;
+    background-color: rgb(5, 179, 5);
+    transition: 0.6s;
+}
+.but2 a{
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+}
+.but2:hover{
+    background-color: rgb(7, 7, 7);
+}
+.sec2{
+    height: 100vh;
+}
+.sec2 center h3{
+    color: green;
+    margin-top: 60px;
+    letter-spacing: 1px;
+}
+.sec2 center h1{
+    letter-spacing: 1px;
+}
+.sec2 center p{
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+/* new section started */
+.img-contain{
+    margin-top: 30px;
+    display: flex;
+    height: 70%;
+    width: 80%;
+    margin-left: 130px;
+    justify-content: space-evenly;
+
+}
+.contain{
+    margin-left: 80px;
+    width: 50%;
+}
+.contain p{
+    margin: 4px;
+    letter-spacing: 1px;
+}
+.aboutus{
+    color: green;
+}
+.paragraph{
+    margin-top: 20px;
+}
+.body{
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ninety{
+    width: 170px;
+    height: 180px;
+
+}
+.plants{
+    font-size: 18;
+    margin-top: 10px;
+}
+.mid1{
+    color:green;
+}
+/* new section started */
+.sec3{
+    height: 110vh;
+    background-image: url(Image/forest2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.sec3-div1{
+    display: flex;
+    margin-left:90px ;
+    height: 110px;
+    width: 80%;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+.sec3-div1 p{
+    margin-right: 50px;
+    color: white;
+}
+.whatweprovide{
+    color:rgb(118, 233, 118);
+    font-size: 18;
+    letter-spacing: 1px;
+    
+}
+.ourservices{
+    font-size: 35;
+    letter-spacing: 1px;
+    color: white;
+}
+.lorem1{
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+.icon1{
+    margin-left: 45%;
+    margin-top: 18px;
+    font-size: 35;
+}
+
+/* new division is started */
+.sec3-div2{
+    height: 80vh;
+    width: 90%;
+    margin-left: 75px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.firstdiv{
+    background-color: white;
+    width: 30%;
+    height: 45%;
+    padding-top: 5px;
+    transition: 0.5s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.firstdiv:hover{
+        background-color: rgb(209, 199, 199);
+}
+.mid{
+    margin: 15px;
+    letter-spacing: 1px;
+}
+/* new section started */
+.sec4{
+    height: 150vh;   
+}
+.sec4-div1{
+    margin-top: 50px;
+    display: flex;
+    height: 15%;
+}
+.insidediv2{
+    margin-left: 400px;
+    margin-right: 10px;
+}
+.SeeOurWork{
+    color: green;
+    margin-left: 70;
+    letter-spacing: 1px;
+}
+.Gallery{
+    font-size: 35;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.lorem2{
+    margin-top: 15px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+.sec4-div2{
+
+    height: 120vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-div1{
+    height: 95%;
+    width: 48%;
+
+}
+.images1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sub-div2{
+    height: 98%;
+    width: 48%;
+  
+}
+.images11{
+    display: flex;
+    justify-content: space-between;
+}
+.img11{
+    width: 47%;
+    height: 230px;
+}
+.img22{
+    width: 47%;
+    height: 230px;
+}
+.images22{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+/* sec4 completed */
+.mid-banner{
+    display: flex;
+    width: 100%;
+    height: 225px;
+    background-color: rgb(163, 201, 98);
+    justify-content: space-evenly;
+    align-items: center;
+}
+.banner-el{
+    width: 200px;
+    height: 200px;
+}
+.banner-el center{
+    margin-top: 5px;
+    position: relative;
+    top: 40px;
+}
+.icon2{
+    color: white;
+    font-size: 30;
+}
+.num{
+    font-weight: 150;
+}
+.save{
+    color: white;
+    font-weight: 600;
+}
+.sec5{
+    height: 100vh;
+}
+.sec5-div1{
+    display: flex;
+    margin-left:90px ;
+    height: 110px;
+    width: 80%;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+.lorem3{
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+.ourhardwork{
+    color:rgb(118, 233, 118);
+    font-size: 18;
+    letter-spacing: 1px;
+    
+}
+.ourfeatures{
+    font-size: 35;
+    letter-spacing: 1px;
+    color: rgb(8, 8, 8);
+}
+.sec5-div1 p{
+    margin-right: 50px;
+    color: rgb(19, 18, 18);
+}
+.sec5-div2{
+    height: 80%;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.boxshadow{
+    width: 60%;
+    height: 100%;
+}
+.boxshadow1{
+    height: 30%;
+    width: 95%;
+    margin-left:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: blanchedalmond;
+    box-shadow: 0px 5px 20px 10px rgb(134, 127, 127);
+}
+.icon3{
+    font-size: 35px;
+    margin-left: 70px;
+}
+.boxshadow11{
+    height: 95%;
+    width: 80%;
+    letter-spacing: 1px;
+    padding-left: 70px;
+}
+.boxshadow11 p{
+    margin-top: 15px;
+}
+.planting{
+    color: rgb(163, 201, 98);
+    font-weight: 5000px;
+    font-size: 20px;
+}
+.boxshadow2{
+    height: 30%;
+    width: 80%;
+    margin-left:132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: blanchedalmond;
+    box-shadow: 0px 5px 20px 10px rgb(134, 127, 127);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.boxshadow3{
+    height: 30%;
+    width: 95%;
+    margin-left:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: blanchedalmond;
+    box-shadow: 0px 5px 20px 10px rgb(134, 127, 127);
+}
+/* new section started */
+.sec6{
+    height: 100vh;
+    background-image: url(Image/forest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.sec6-div1{
+    margin-top: 50px;
+    display: flex;
+    height: 15%;
+}
+.ourprices{
+    font-size: 35;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: white;
+}
+.lorem4{
+    margin-top: 15px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+.sec6-div2{
+    width: 90%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.pricetag{
+    border: 1px solid white;
+    height: 80%;
+    width: 20%;
+    background-color: white;
+    padding-top: 10px;
+}
+.pricetag center{
+    margin-top: 20px;
+}
+
+.golden{
+    color: rgb(99, 141, 26);
+    font-weight: 1000px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.span{
+    color: rgb(92, 134, 18);
+    font-size: 25px;
+}
+.lorem5{
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: rgb(119, 114, 114);
+
+}
+.booknow{
+    background-color:  rgb(99, 141, 26);
+    height: 45px;
+    width: 140px;
+    border-radius: 20px;
+    transition: 0.5s;
+    border:solid white;
+    padding-bottom: 3px;
+}
+.booknow a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 17px;
+
+}
+.booknow:hover{
+    background-color: black;
+}
+.sec7{
+    height: 90vh;
+}
+.sec7-div1{
+    display: flex;
+    margin-left:90px ;
+    height: 110px;
+    width: 80%;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+.insidediv4{
+    margin-left: 50px;
+    height: 80px;
+}
+.sec7-div2{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.clients{
+    height: 90%;
+    width: 30%;
+}
+.clientphoto{
+    width: 50%;
+    border: 1px solid rgb(207, 205, 205);
+    border-radius: 5px;
+    height: 44%;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+.ted{
+    font-size: 20px;
+    color: green;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.client{
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.lorem6{
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: rgb(80, 77, 77);
+}
+.mid-banner2{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(163, 201, 98);
+    padding-top: 3rem;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    transition: 0.3s ease-in-out;
+}
+.icon4{
+    font-size: 30px;
+}
+.circle:hover{
+    background-color: black;
+    color: white;
+}
+.mid-banner-text{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-top: 25px;
+}
+.mid-banner-p{
+    color: rgb(54, 52, 52);
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.sec8{
+    height: 95vh;
+}
+.sec8-div2{
+    height: 83%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.volunters{
+    height: 90%;
+    width: 22%;
+}
+.volunters center{
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.will{
+    color: green;
+    margin-top: 10px;
+}
+.fb{
+    font-size: 10px;
+    padding: 13px;
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+    transition: 0.3s ease-in-out;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10;
+    padding: 0 50px 0;
+}
+.fb:hover{
+    color: green;
+}
+.sec9{
+    height: 100vh;
+    background-image: url(image/colorfullforest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.seeourevent{
+    color: green;
+    margin-left: 5px;
+}
+.loremlast{
+    color:white;
+    margin-left: 25px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.sec9-div2{
+    height: 70vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.blogs{
+    background-color: white;
+    width: 28%;
+    height: 100%;
+    padding-top: 15;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.datetag{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.datetag p a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.qq{
+    margin-top: 5px;
+    color: green;
+    margin-bottom: 5px;
+}
+.blogs p{
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.last2{
+    color: rgb(149, 156, 149);
+    font-size: 15px;
+}
+.sec10{
+    min-height: 100vh;
+}
+.sec10-div2{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.form{
+    height: 100%;
+    width: 47%;
+}
+.contact{
+    height: 100%;
+    border: 1px solid black;
+    width: 47%;
+}
+.name{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 9%;
+    background-color:whitesmoke;
+    box-shadow: 0px 1px 1px 1px rgb(0,0,0);
+    border-right-color: rgb(0,0,0);
+    border: none;
+    padding-left: 10px;
+}
+.name:hover{
+    background-color: white;
+}
+.message{
+    height: 40%;
+    padding-bottom: 170px;
+}
+.send-to{
+    color: white;
+    width: 100%;
+    height: 9%;
+    border-radius: 100px;
+    background: yellowgreen;
+    border: 1px solid yellowgreen;
+    letter-spacing: 1px;
+}
+.send-to:hover{
+    background-color: black;
+    border: 1px solid black;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.address{
+    height: 23%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home{
+    font-size: 35px;
+    margin-top: 5px;
+}
+.address1{
+    margin-bottom: 30px;
+    height: 75%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.address1 p{
+    letter-spacing: 1px;
+}
+.add{
+    color: rgb(18, 167, 18);
+    font-size: 25px;
+    margin-top: -10px;
+}
+.address2{
+    margin-bottom: 30px;
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.address2-3{
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.address2-3 p{
+    letter-spacing: 1px;
+}
+.footer{
+    height: 30%;
+    background-color: rgb(163, 201, 98);
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.footer1{
+    margin: auto;
+}
+.social2{
+    margin-top: 20px;
+}
+.social2 i{
+    margin-left: 7px;
+}
+.copyright{
+    letter-spacing: 1px;
+}
+.last{
+    color: white;
+}
